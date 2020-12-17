@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,27 @@
 		607581EC258A20A8000BFB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607581EA258A20A8000BFB12 /* Main.storyboard */; };
 		607581EE258A20AA000BFB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607581ED258A20AA000BFB12 /* Assets.xcassets */; };
 		607581F1258A20AA000BFB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607581EF258A20AA000BFB12 /* LaunchScreen.storyboard */; };
+		608BA9DF258B3B1D0004016E /* CommonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 608BA9DE258B3B1D0004016E /* CommonView.xib */; };
+		608BA9E2258B3B2B0004016E /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BA9E1258B3B2B0004016E /* CommonView.swift */; };
+		608BA9E5258B3B7E0004016E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BA9E4258B3B7E0004016E /* User.swift */; };
+		608BA9EC258B3C680004016E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BA9EB258B3C680004016E /* BaseViewController.swift */; };
+		608BA9EF258B3D870004016E /* CreateOpratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BA9EE258B3D870004016E /* CreateOpratorViewController.swift */; };
+		608BA9F2258B3FBA0004016E /* GenerateOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BA9F1258B3FBA0004016E /* GenerateOperatorVC.swift */; };
+		608BA9F5258B400B0004016E /* MapOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BA9F4258B400B0004016E /* MapOperatorViewController.swift */; };
+		608BA9F9258B41330004016E /* MapWithIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BA9F8258B41320004016E /* MapWithIndexViewController.swift */; };
+		608BAA00258B461C0004016E /* FlatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BA9FF258B461C0004016E /* FlatMapViewController.swift */; };
+		608BAA04258B496F0004016E /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BAA03258B496F0004016E /* Info.swift */; };
+		608BAA08258B50070004016E /* ScanOpratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BAA07258B50070004016E /* ScanOpratorVC.swift */; };
+		608BAA0C258B59900004016E /* BufferOpratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BAA0B258B59900004016E /* BufferOpratorVC.swift */; };
+		608BAA0F258B5F810004016E /* DistinctUntilChangedOpatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BAA0E258B5F810004016E /* DistinctUntilChangedOpatorVC.swift */; };
+		608BAA13258B630A0004016E /* FilterOpratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608BAA12258B630A0004016E /* FilterOpratorVC.swift */; };
+		DC6D9E900863A63E8F4ECF83 /* Pods_RxSwiftBasicDemoFirst.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A13CF9715E3CBE787E542B4 /* Pods_RxSwiftBasicDemoFirst.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A13CF9715E3CBE787E542B4 /* Pods_RxSwiftBasicDemoFirst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftBasicDemoFirst.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48777498B75FEDF33D85A4B0 /* Pods-RxSwiftBasicDemoFirst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBasicDemoFirst.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftBasicDemoFirst/Pods-RxSwiftBasicDemoFirst.release.xcconfig"; sourceTree = "<group>"; };
+		4E809F416BA3375F5368079C /* Pods-RxSwiftBasicDemoFirst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBasicDemoFirst.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftBasicDemoFirst/Pods-RxSwiftBasicDemoFirst.debug.xcconfig"; sourceTree = "<group>"; };
 		607581E1258A20A8000BFB12 /* RxSwiftBasicDemoFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftBasicDemoFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607581E4258A20A8000BFB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607581E6258A20A8000BFB12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,20 @@
 		607581ED258A20AA000BFB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607581F0258A20AA000BFB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		607581F2258A20AA000BFB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608BA9DE258B3B1D0004016E /* CommonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonView.xib; sourceTree = "<group>"; };
+		608BA9E1258B3B2B0004016E /* CommonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
+		608BA9E4258B3B7E0004016E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		608BA9EB258B3C680004016E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		608BA9EE258B3D870004016E /* CreateOpratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOpratorViewController.swift; sourceTree = "<group>"; };
+		608BA9F1258B3FBA0004016E /* GenerateOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateOperatorVC.swift; sourceTree = "<group>"; };
+		608BA9F4258B400B0004016E /* MapOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOperatorViewController.swift; sourceTree = "<group>"; };
+		608BA9F8258B41320004016E /* MapWithIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWithIndexViewController.swift; sourceTree = "<group>"; };
+		608BA9FF258B461C0004016E /* FlatMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapViewController.swift; sourceTree = "<group>"; };
+		608BAA03258B496F0004016E /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		608BAA07258B50070004016E /* ScanOpratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanOpratorVC.swift; sourceTree = "<group>"; };
+		608BAA0B258B59900004016E /* BufferOpratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferOpratorVC.swift; sourceTree = "<group>"; };
+		608BAA0E258B5F810004016E /* DistinctUntilChangedOpatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctUntilChangedOpatorVC.swift; sourceTree = "<group>"; };
+		608BAA12258B630A0004016E /* FilterOpratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOpratorVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6D9E900863A63E8F4ECF83 /* Pods_RxSwiftBasicDemoFirst.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				607581E3258A20A8000BFB12 /* RxSwiftBasicDemoFirst */,
 				607581E2258A20A8000BFB12 /* Products */,
+				AE8DE993AF585BC3C788A9DB /* Pods */,
+				D4CE00DBF55325B7BAF8BA95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,78 @@
 		607581E3258A20A8000BFB12 /* RxSwiftBasicDemoFirst */ = {
 			isa = PBXGroup;
 			children = (
+				608BA9FC258B443B0004016E /* View */,
+				608BA9FB258B44040004016E /* ViewConroller */,
+				608BA9DC258B39D10004016E /* RxOperator */,
+				608BA9FD258B44650004016E /* Model */,
 				607581E4258A20A8000BFB12 /* AppDelegate.swift */,
 				607581E6258A20A8000BFB12 /* SceneDelegate.swift */,
-				607581E8258A20A8000BFB12 /* ViewController.swift */,
-				607581EA258A20A8000BFB12 /* Main.storyboard */,
 				607581ED258A20AA000BFB12 /* Assets.xcassets */,
-				607581EF258A20AA000BFB12 /* LaunchScreen.storyboard */,
 				607581F2258A20AA000BFB12 /* Info.plist */,
 			);
 			path = RxSwiftBasicDemoFirst;
+			sourceTree = "<group>";
+		};
+		608BA9DC258B39D10004016E /* RxOperator */ = {
+			isa = PBXGroup;
+			children = (
+				608BA9EE258B3D870004016E /* CreateOpratorViewController.swift */,
+				608BA9F1258B3FBA0004016E /* GenerateOperatorVC.swift */,
+				608BA9F4258B400B0004016E /* MapOperatorViewController.swift */,
+				608BA9FF258B461C0004016E /* FlatMapViewController.swift */,
+				608BAA07258B50070004016E /* ScanOpratorVC.swift */,
+				608BA9F8258B41320004016E /* MapWithIndexViewController.swift */,
+				608BAA0B258B59900004016E /* BufferOpratorVC.swift */,
+				608BAA0E258B5F810004016E /* DistinctUntilChangedOpatorVC.swift */,
+				608BAA12258B630A0004016E /* FilterOpratorVC.swift */,
+			);
+			path = RxOperator;
+			sourceTree = "<group>";
+		};
+		608BA9FB258B44040004016E /* ViewConroller */ = {
+			isa = PBXGroup;
+			children = (
+				607581E8258A20A8000BFB12 /* ViewController.swift */,
+				608BA9EB258B3C680004016E /* BaseViewController.swift */,
+			);
+			path = ViewConroller;
+			sourceTree = "<group>";
+		};
+		608BA9FC258B443B0004016E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				607581EA258A20A8000BFB12 /* Main.storyboard */,
+				607581EF258A20AA000BFB12 /* LaunchScreen.storyboard */,
+				608BA9DE258B3B1D0004016E /* CommonView.xib */,
+				608BA9E1258B3B2B0004016E /* CommonView.swift */,
+				608BAA03258B496F0004016E /* Info.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		608BA9FD258B44650004016E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				608BA9E4258B3B7E0004016E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE8DE993AF585BC3C788A9DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E809F416BA3375F5368079C /* Pods-RxSwiftBasicDemoFirst.debug.xcconfig */,
+				48777498B75FEDF33D85A4B0 /* Pods-RxSwiftBasicDemoFirst.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4CE00DBF55325B7BAF8BA95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A13CF9715E3CBE787E542B4 /* Pods_RxSwiftBasicDemoFirst.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607581F5258A20AA000BFB12 /* Build configuration list for PBXNativeTarget "RxSwiftBasicDemoFirst" */;
 			buildPhases = (
+				AA0B07292ACFB904B48ECB57 /* [CP] Check Pods Manifest.lock */,
 				607581DD258A20A8000BFB12 /* Sources */,
 				607581DE258A20A8000BFB12 /* Frameworks */,
 				607581DF258A20A8000BFB12 /* Resources */,
+				1F30DABE312A2B6B18ABA3DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +227,75 @@
 				607581F1258A20AA000BFB12 /* LaunchScreen.storyboard in Resources */,
 				607581EE258A20AA000BFB12 /* Assets.xcassets in Resources */,
 				607581EC258A20A8000BFB12 /* Main.storyboard in Resources */,
+				608BA9DF258B3B1D0004016E /* CommonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F30DABE312A2B6B18ABA3DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftBasicDemoFirst/Pods-RxSwiftBasicDemoFirst-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftBasicDemoFirst/Pods-RxSwiftBasicDemoFirst-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftBasicDemoFirst/Pods-RxSwiftBasicDemoFirst-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0B07292ACFB904B48ECB57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftBasicDemoFirst-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607581DD258A20A8000BFB12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608BAA0C258B59900004016E /* BufferOpratorVC.swift in Sources */,
 				607581E9258A20A8000BFB12 /* ViewController.swift in Sources */,
 				607581E5258A20A8000BFB12 /* AppDelegate.swift in Sources */,
+				608BA9F5258B400B0004016E /* MapOperatorViewController.swift in Sources */,
+				608BA9EF258B3D870004016E /* CreateOpratorViewController.swift in Sources */,
+				608BAA0F258B5F810004016E /* DistinctUntilChangedOpatorVC.swift in Sources */,
+				608BAA13258B630A0004016E /* FilterOpratorVC.swift in Sources */,
+				608BA9F2258B3FBA0004016E /* GenerateOperatorVC.swift in Sources */,
 				607581E7258A20A8000BFB12 /* SceneDelegate.swift in Sources */,
+				608BA9F9258B41330004016E /* MapWithIndexViewController.swift in Sources */,
+				608BA9E5258B3B7E0004016E /* User.swift in Sources */,
+				608BA9E2258B3B2B0004016E /* CommonView.swift in Sources */,
+				608BAA04258B496F0004016E /* Info.swift in Sources */,
+				608BAA08258B50070004016E /* ScanOpratorVC.swift in Sources */,
+				608BA9EC258B3C680004016E /* BaseViewController.swift in Sources */,
+				608BAA00258B461C0004016E /* FlatMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +439,7 @@
 		};
 		607581F6258A20AA000BFB12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E809F416BA3375F5368079C /* Pods-RxSwiftBasicDemoFirst.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +459,7 @@
 		};
 		607581F7258A20AA000BFB12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48777498B75FEDF33D85A4B0 /* Pods-RxSwiftBasicDemoFirst.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
